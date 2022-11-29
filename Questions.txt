@@ -39,3 +39,8 @@ Your programme should continue taking customers input until an account number of
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
+ Question:. Write a c code that enters the salaries of 5 workers if their salaries 
+is below $20,000 then they are given a 25% increase output the value of their salary. (use an array)
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
