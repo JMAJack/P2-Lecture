@@ -2,7 +2,78 @@
 
 int main()
 {
-    printf("Hello World");
+    //First point is syntax
 
+    /*
+        <datatype> <Vname> <semicolon>
+
+        Declare float varible called wages
+
+        float wages;
+
+        //Identifier & Variables
+
+            An identifier is used for any variable, function, data definition, labels in your program etc.
+
+            Variables improtance?
+
+                    int num1=25;
+    */
+
+
+     int unitconsumed = 0, totalamnt = 0;
+     char accnum, name;
+     
+
+  
+        printf("What is your name?");
+        scanf("%s",&name);
+
+        printf("\nWhat is your Account Number?");
+        scanf("%s",&accnum);
+
+        printf("\nWhat are your units consumed?\t");
+        scanf("%d",&unitconsumed);
+
+        if (unitconsumed < 100)
+        {
+            totalamnt = 900;
+            printf("\nYour fee is $%d",totalamnt);
+        }
+        else if (unitconsumed >= 100 && unitconsumed < 200)
+            {
+                totalamnt = unitconsumed * 120;
+                printf("\nYour fee is $%d",totalamnt);
+            }
+            else if (unitconsumed >= 200 && unitconsumed < 400)
+                {
+                    totalamnt = unitconsumed * 150;
+                    printf("\nYour fee is $%d",totalamnt);  
+                }
+                else if (unitconsumed >= 400 && unitconsumed < 600)
+                    {
+                        totalamnt = unitconsumed * 180;
+                        printf("\nYour fee is $%d",totalamnt);  
+
+                        if (unitconsumed > 500);
+                        {
+                            totalamnt = totalamnt * 0.15;
+                            printf("\nYour fee is $%d",totalamnt);  
+                        }
+                    }
+                    else if (unitconsumed >= 600)
+                        {
+                            if (unitconsumed > 500);
+                            {   
+                                totalamnt = unitconsumed * 200;
+                                totalamnt = totalamnt * 0.15;
+                                printf("\nYour fee is $%d",totalamnt);  
+                            }
+                        }
+
+                        else 
+                        {
+                            printf("Rawr");
+                        }
     return 0;
 }
