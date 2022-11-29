@@ -26,6 +26,8 @@ int main()
 
     }
 
+    printf("\t The total is:\t|\t%d",add);
+
 
 
 
