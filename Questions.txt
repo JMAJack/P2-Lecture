@@ -1,0 +1,41 @@
+Write a programme to generate customer’s electricity bill. 
+The user should enter the 
+customer account number, name and units consumed and display the total amount the customer was charged.  
+The customer charge is based on the criteria below.  
+A customer whose usage exceeds 500 pays a 15% surge charge, also customers whose usage is below $100 pays a flat fee of $900. 
+
+up to 199
+@1.20
+200 and above but less than 400
+@1.50
+400 and above but less than 600
+@1.80
+600 and above
+@2.00
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Write a C programme to generate the fibonacci series up to a given number of terms stated by the user.  
+Display the sum of the series The fibonacci series is 0, 1, 1, 2, 3, 5, …..
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Write a C programme to find the median of ten numbers entered by the user. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Develop a C program that will determine whether a department-store customer has exceeded the credit limit on a charge account.
+For each customer, the following facts are available:
+    Account number
+    Balance at the beginning of the month
+    Total of all items charged by this customer this month
+    Total of all credits applied to this customer's account this month
+    Allowed credit limit
+The program should calculate the new balance (=beginning balance + charges – credits), 
+and determine whether the new balance exceeds the customer's credit limit. 
+For those customers whose credit limit is exceeded, the program should display the customer's account number, credit limit, new balance and the message “Credit limit exceeded.”  
+Your programme should continue taking customers input until an account number of -1 is entered to signal the end of entering customers data.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
